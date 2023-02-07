@@ -251,6 +251,10 @@ The version of MonogDB to install/manage. This is needed when managing
 repositories. If not specified, the module will use the default for your OS
 distro.
 
+##### `use_percona`
+A boolean variable describing whether the Percona version of MongoDB binaries/repository 
+should be installed. If not specified, this will default to false.
+
 ##### `repo_location`
 This setting can be used to override the default MongoDB repository location.
 If not specified, the module will use the default repository for your OS distro.
